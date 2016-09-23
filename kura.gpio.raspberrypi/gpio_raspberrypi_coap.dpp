@@ -1,0 +1,20 @@
+#Deployment Plugin Project File
+#Fri Sep 23 17:12:14 ICT 2016
+build.ant.name=<.>/gpio_raspberrypi_coap_build.xml
+build.dp.file=<.>/gpio_raspberrypi_coap.dp
+build.location=
+bundles.0.bundle_path=/home/pthao/plugins/kura.gpio.raspberrypi_1.0.0.201609231712.jar
+bundles.0.customizer=false
+bundles.0.headers.count=0
+bundles.0.missing=false
+bundles.0.name=bundles/kura.gpio.raspberrypi_1.0.0.201609231712.jar
+bundles.0.symbolic_name=kura.gpio.raspberrypi
+bundles.0.version=1.0.0.201609231712
+bundles.count=1
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=gpio_raspberrypi_coap
+headers.version=1.0.0
+resources.count=0
+

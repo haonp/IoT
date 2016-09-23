@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: kura.gpio.raspberrypi
+Bundle-SymbolicName: kura.gpio.raspberrypi
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.service.component,
+ org.slf4j;version="1.6.4"
+Bundle-ClassPath: libs/californium-core-1.1.0-SNAPSHOT.jar,
+ libs/element-connector-1.1.0-SNAPSHOT.jar,
+ libs/pi4j-core.jar,
+ libs/pi4j-device.jar,
+ libs/pi4j-gpio-extension.jar,
+ .
+Service-Component: OSGI-INF/component.xml
+Bundle-ActivationPolicy: lazy
